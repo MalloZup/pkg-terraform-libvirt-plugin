@@ -1,0 +1,17 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+Source: terraform
+Section: misc
+Maintainer: Dario Maiocchi <sodar@riseup.net>
+Priority: optional
+Standards-Version: 0.9.5
+Homepage: https://www.terraform.io/
+Vcs-Git: https://github.com/MalloZup/pkg-terraform-libvirt-plugin
+Vcs-Browser: https://github.com/MalloZup/pkg-terraform-libvirt-plugin
+
+Package: terraform
+Architecture: any
+Depends: ${misc:Depends}
+Description: The terraform pkg
+  enables you to safely and predictably create, change, and improve production infrastructure. It is an open source tool that codifies APIs into declarative  
+  configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned. 
